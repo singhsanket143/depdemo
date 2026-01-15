@@ -14,7 +14,7 @@ public class PublicController {
 
     @GetMapping("/hello")
     public ResponseEntity<?> hello() {
-        return ResponseEntity.ok("Hello World");
+        return ResponseEntity.ok("Hello World!!");
     }
     
 }
